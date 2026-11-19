@@ -1,0 +1,21 @@
+[project]
+name = "ecomap"
+dynamic = ["version"]
+authors = [
+  {name="Hua Xu", email="huax666@uw.edu"},
+  {name="Yiyang Ge", email="yg287@uw.edu"},
+  {name="Jessie Wei", email="jessiw31@uw.edu"},
+  {name="Wenjun Dang", email="dangwj@uw.edu"}
+]
+description = "An interactive map for exploring hiking trails and ecosystems in Washington State"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+	"numpy>=1.25",
+    "pandas>=2.1",
+] 
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

@@ -1,1 +1,6 @@
-
+name: ecomap
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pytest
